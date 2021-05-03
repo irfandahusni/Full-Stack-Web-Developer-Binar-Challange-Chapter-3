@@ -82,4 +82,36 @@ h3{
     gap:1px;
 }
 
+.second-page{
+    background-image: url("assets/the-games-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.second-page .container-fluid .col-md-3{
+    margin-top: 30vh;
+}
+
+.second-page .container-fluid .col-md-3 p{
+    font-size:1.5em;
+}
+
+.second-page .container-fluid .col-md-7{
+    margin-top: 35vh;
+    padding-right:7vw;
+}
+
+.carousel-indicators li{
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    margin-right:40px;
+    margin-bottom:-15px;
+}
+
+.second-page .container-fluid .col-md-7 a{
+    margin-right:-15vh;
+    margin-left:-15vh;
+}
 
