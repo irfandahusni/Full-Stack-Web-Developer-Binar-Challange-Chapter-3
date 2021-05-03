@@ -186,3 +186,52 @@ ul.timeline-02 > li:before {
     color:goldenrod;
 }
 
+.fourth-page{
+    background-image: url("assets/requirements.png");
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.fourth-page .container{
+    /* padding: 20vmin 0vmin; */
+    padding-top:25vh;
+}
+
+.fourth-page .container .row .col-md-6 .panel-left p{
+    font-size:3em;
+}
+
+/* .fourth-page .container .row .col-md-6 last-child{
+    position: relative;
+} */
+
+.fourth-page .container .row .col-md-6 .panel-right{
+    position: absolute;
+    left: -20vmin;
+    /* border-radius: 3px; */
+    text-align: left;
+    /* padding: 13vmin 5vmin 20vmin 10vmin; */
+    z-index: 1;
+}
+
+.fourth-page .container .row .col-md-6 .panel-right h3{
+   font-size:20px;
+}
+
+.fourth-page .container .row .col-md-6 .table, tr, td{
+    margin-top:5%;
+    border:0.2px solid white;
+}
+.fourth-page .container .row .col-md-6 .table h4{
+    color : goldenrod;
+}
+
+.fourth-page .container .row .col-md-6 .table p{
+    color : white;
+    font-size:1.1em;
+}
+
+.fourth-page .container .row .col-md-6 .table{
+    margin-top: 20vh;
+}
