@@ -1,5 +1,14 @@
 /*Font*/
 
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body{
     font-family:'Open Sans';
     font-size: 16px;
@@ -44,7 +53,7 @@ h3{
 .first-page {
     background-image: url("assets/main-bg.jpg");
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
 }
 
@@ -85,7 +94,7 @@ h3{
 .second-page{
     background-image: url("assets/the-games-bg.jpg");
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
 }
 
@@ -118,7 +127,7 @@ h3{
 .third-page{
     background-image: url("assets/features.jpg");
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
 }
 
@@ -189,7 +198,7 @@ ul.timeline-02 > li:before {
 .fourth-page{
     background-image: url("assets/requirements.png");
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
 }
 
@@ -235,3 +244,97 @@ ul.timeline-02 > li:before {
 .fourth-page .container .row .col-md-6 .table{
     margin-top: 20vh;
 }
+
+.fifth-page {
+    background-image: url("assets/top-score-bg.png");
+    background-color: rgb(20,20,20);
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+}
+.fifth-page .container-fluid .row{
+    /* border:4px solid green; */
+    /* height:150vh; */
+    align-items: center;
+    text-align: left;
+}
+
+.fifth-page .container-fluid .row .col-md-6{
+    /* padding-left:5vw; */
+}
+
+.fifth-page .container-fluid .row .col-md-5 h1,h4{
+    color:white;
+    /* border:2px solid red; */
+}
+
+.circular-square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+  .circular-landscape {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular-landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+
+  .card {
+    background: rgb(25,25,25);
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 6vh 6vw 6vh 6vw;
+  }
+  
+  .date {
+    font-size: 14px;
+    /* margin-bottom: 0 !important; */
+    color: grey;
+  }
+
+  .sentence-testimony{
+      margin-top:2vh;
+      color:white;
+  }
+  
+.card .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card .name {
+    margin-left: 20px;
+    color: goldenrod;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  
+  .card .profile .name span {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #jada{
+    left: -20vmin;
+    /* border-radius: 3px; */
+    text-align: left;
+    /* padding: 13vmin 5vmin 20vmin 10vmin; */
+    z-index: 1;
+  }
+
+  .card .col-md{
+      margin-top: -5vh;
+  }
