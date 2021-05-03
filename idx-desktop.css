@@ -1,0 +1,85 @@
+/*Font*/
+
+body{
+    font-family:'Open Sans';
+    font-size: 16px;
+    font-weight:500;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+/*Button*/
+.custom-button{
+    width:15vw;
+    height:6vh;
+}
+
+.custom-button p{
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Open Sans';
+}
+
+/*First Page*/
+.first-page {
+    background-image: url("assets/main-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.navbar-custom{
+    background-color: rgba(0, 0, 0, .5);
+    height: 80px;
+    padding-top : -100vh;
+    padding-left:100px;
+    margin-right:-200px;
+    font-family: 'Bebas Neue';
+    font-size:18px;
+}
+
+.navbar-custom .navbar-nav a{
+    margin:20px;
+}
+
+#navbar-middle{
+    margin-left:200px;
+}
+
+#navbar-right{
+    margin-left:400px;
+}
+
+.first-page .container{
+    margin-top:35vh;
+    align-items: center;
+}
+
+.first-page .container .icon-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:30vh;   
+    gap:1px;
+}
+
+
